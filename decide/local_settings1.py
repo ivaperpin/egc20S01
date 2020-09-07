@@ -29,9 +29,9 @@ APIS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'ivaperpin',
-        'PASSWORD':'password',
+       	'NAME': 'decide',
+        'USER': 'test_decide',
+	'PASSWORD' : 'decide,'
         'HOST': 'localhost',
         'PORT': 5432,
     }
