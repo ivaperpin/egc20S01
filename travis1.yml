@@ -21,8 +21,9 @@ deploy:
   provider: heroku
   app: decideivaperpin
   strategy: git
-notificacions:
-	email:
-	"ivaperpin@alum.us.es" 
+after_deploy:
+	notificacions:
+		email:
+		"ivaperpin@alum.us.es" 
 
 
