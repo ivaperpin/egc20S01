@@ -12,28 +12,28 @@ MODULES = [
     'visualizer',
     'voting',
 ]
+BASEAURL = 'http://127.0.0.1'
 
 APIS = {
-    'authentication': 'http://10.5.0.1:8000',
-    'base': 'http://10.5.0.1:8000',
-    'booth': 'http://10.5.0.1:8000',
-    'census': 'http://10.5.0.1:8000',
-    'mixnet': 'http://10.5.0.1:8000',
-    'postproc': 'http://10.5.0.1:8000',
-    'store': 'http://10.5.0.1:8000',
-    'visualizer': 'http://10.5.0.1:8000',
-    'voting': 'http://10.5.0.1:8000',
+    'authentication': 'http://127.0.0.1',
+    'base': 'http://127.0.0.1',
+    'booth': 'http://127.0.0.1',
+    'census': 'http://127.0.0.1',
+    'mixnet': 'http://127.0.0.1',
+    'postproc': 'http://127.0.0.1',
+    'store': 'http://127.0.0.1',
+    'visualizer': 'http://127.0.0.1',
+    'voting': 'http://127.0.0.1',
 }
-
-BASEURL = 'http://10.5.0.1:8000'
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
         'USER': 'postgres',
-        'HOST': 'db',
-        'PORT': '5432',
+        'HOST': 'localhost',
+	'PASSWORD': 'davmorllu',
+        'PORT': 5432,
     }
 }
 
